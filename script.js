@@ -7,10 +7,37 @@ menuBtn.addEventListener("click", () => {
 // CURSOR
 const cursor = document.querySelector(".cursor");
 
-window.addEventListener("mousemove", e => {
-  cursor.style.left = e.clientX + "px";
-  cursor.style.top = e.clientY + "px";
+document.addEventListener("mousemove", e => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+
+  const el = document.elementFromPoint(e.clientX, e.clientY);
+  if (!el) return;
+
+  if (el.closest(".light")) {
+    cursor.classList.add("light");
+    cursor.classList.remove("dark");
+  } else {
+    cursor.classList.add("dark");
+    cursor.classList.remove("light");
+  }
 });
+
+document.querySelectorAll(".magnetic").forEach(el => {
+  el.addEventListener("mousemove", e => {
+    const rect = el.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+
+    el.style.transform = `translate(${x * 0.25}px, ${y * 0.25}px)`;
+  });
+
+  el.addEventListener("mouseleave", () => {
+    el.style.transform = `translate(0,0)`;
+  });
+});
+
+
 // SCROLL DISTORTION FOR HERO
 const heroTitle = document.querySelector(".hero-title");
 
@@ -61,3 +88,28 @@ function animateHeroText() {
 window.addEventListener("load", () => {
   setTimeout(animateHeroText, 1700);
 });
+function updateTime() {
+  const el = document.getElementById("live-time");
+  if (!el) return;
+
+  const now = new Date();
+  el.textContent = now.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+}
+
+function updateTime() {
+  const el = document.getElementById("live-time");
+  if (!el) return;
+
+  const now = new Date();
+  el.textContent = now.toLocaleTimeString([], {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  });
+}
+
+updateTime();
+setInterval(updateTime, 1000);
