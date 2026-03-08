@@ -202,3 +202,49 @@ ${e.map(o=>`• ${o}`).join(`
 Project details:
 
 `);return`mailto:justhemang@gmail.com?subject=${i}&body=${s}`};return S.jsx(Uw,{children:S.jsxs("div",{className:"min-h-screen bg-background noise relative overflow-hidden",children:[S.jsx($.div,{className:"absolute top-20 right-1/4 h-72 w-72 rounded-full bg-primary/8 blur-[120px]",animate:{scale:[1,1.2,1],x:[0,20,0]},transition:{duration:10,repeat:1/0,ease:"easeInOut"}}),S.jsx($.div,{className:"absolute bottom-20 left-1/4 h-56 w-56 rounded-full bg-glow-muted/15 blur-[100px]",animate:{scale:[1.1,1,1.1]},transition:{duration:8,repeat:1/0,ease:"easeInOut"}}),S.jsx($.nav,{initial:{y:-60,opacity:0},animate:{y:0,opacity:1},transition:{duration:.6},className:"glass fixed top-0 left-0 right-0 z-50",children:S.jsx("div",{className:"container mx-auto flex items-center justify-between px-6 py-4",children:S.jsxs(Uf,{to:"/",className:"flex items-center gap-3 group",children:[S.jsx(RC,{size:18,className:"text-muted-foreground group-hover:text-primary transition-colors"}),S.jsx("img",{src:Th,alt:"JustHemang",className:"h-7 w-7 rounded-full"}),S.jsxs("span",{className:"font-display text-base font-bold tracking-wider text-foreground",children:["JUST",S.jsx("span",{className:"text-primary",children:"HEMANG"})]})]})})}),S.jsxs("div",{className:"container mx-auto px-6 pt-32 pb-20 relative z-10",children:[S.jsxs("div",{className:"grid lg:grid-cols-2 gap-16 max-w-5xl mx-auto",children:[S.jsxs($.div,{initial:{opacity:0,x:-40},animate:{opacity:1,x:0},transition:{duration:.8,delay:.2},className:"space-y-8",children:[S.jsxs("div",{children:[S.jsx($.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.3},className:"text-primary text-sm uppercase tracking-[0.2em] mb-3 font-medium",children:"Available for Work"}),S.jsxs($.h1,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{delay:.4,duration:.7},className:"font-display text-4xl md:text-5xl font-bold text-foreground leading-tight",children:["Let's build something"," ",S.jsx("span",{className:"gradient-text",children:"amazing"})," together"]}),S.jsx($.p,{initial:{opacity:0},animate:{opacity:1},transition:{delay:.6},className:"mt-4 text-muted-foreground text-lg leading-relaxed",children:"Whether it's a YouTube video, a music video, or a full documentary — I bring cinematic quality and creative storytelling to every project."})]}),S.jsxs($.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{delay:.7},children:[S.jsxs("h3",{className:"font-display text-lg font-semibold text-foreground mb-4 flex items-center gap-2",children:[S.jsx(NC,{size:18,className:"text-primary"}),"What do you need?"]}),S.jsx("div",{className:"flex flex-wrap gap-2",children:MD.map((i,s)=>S.jsx($.button,{initial:{opacity:0,scale:.8},animate:{opacity:1,scale:1},transition:{delay:.8+s*.05},onClick:()=>n(i),className:`rounded-full px-4 py-2 text-sm font-medium transition-all duration-300 ${e.includes(i)?"bg-primary text-primary-foreground shadow-[0_0_15px_hsl(175_80%_50%/0.3)]":"glass text-muted-foreground hover:text-foreground hover:border-primary"}`,children:i},i))})]}),S.jsxs($.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{delay:1},className:"flex flex-col sm:flex-row gap-4 pt-2",children:[S.jsxs("a",{href:r(),className:"group flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-3.5 font-semibold text-primary-foreground transition-all duration-300 hover:shadow-[0_0_30px_hsl(175_80%_50%/0.4)] hover:scale-105",children:[S.jsx(_C,{size:18}),"Send Me an Email"]}),S.jsxs("a",{href:"https://www.instagram.com/justhemang6/",target:"_blank",rel:"noopener noreferrer",className:"flex items-center justify-center gap-2 rounded-full border border-border px-8 py-3.5 font-semibold text-foreground hover:border-primary hover:text-primary transition-all duration-300",children:[S.jsx(Kc,{size:18}),"DM on Instagram"]})]})]}),S.jsxs($.div,{initial:{opacity:0,x:40},animate:{opacity:1,x:0},transition:{duration:.8,delay:.4},className:"space-y-5",children:[S.jsxs("h3",{className:"font-display text-lg font-semibold text-foreground flex items-center gap-2",children:[S.jsx(LC,{size:18,className:"text-primary"}),"Reach out anywhere"]}),[{icon:Xv,label:"Email",value:"justhemang@gmail.com",href:"mailto:justhemang@gmail.com"},{icon:Kc,label:"Instagram",value:"@justhemang6",href:"https://www.instagram.com/justhemang6/"},{icon:Zv,label:"YouTube",value:"@JustHemang",href:"https://www.youtube.com/@JustHemang"},{icon:Ya,label:"Framefolio",value:"framefolio.in/justhemang",href:"https://framefolio.in/justhemang"}].map((i,s)=>S.jsxs($.a,{href:i.href,target:"_blank",rel:"noopener noreferrer",initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{delay:.6+s*.1},whileHover:{scale:1.02,x:4},className:"glass rounded-xl p-5 flex items-center gap-4 group hover:border-primary transition-all duration-300 block",children:[S.jsx("div",{className:"flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-secondary text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300",children:S.jsx(i.icon,{size:22})}),S.jsxs("div",{className:"min-w-0",children:[S.jsx("p",{className:"text-xs uppercase tracking-wider text-muted-foreground",children:i.label}),S.jsx("p",{className:"text-sm font-medium text-foreground truncate",children:i.value})]})]},i.label)),S.jsxs($.div,{initial:{opacity:0,y:20},animate:{opacity:1,y:0},transition:{delay:1.1},className:"glass rounded-xl p-6 mt-6 border-primary/20",children:[S.jsxs("div",{className:"flex items-center gap-3 mb-3",children:[S.jsxs("span",{className:"relative flex h-3 w-3",children:[S.jsx("span",{className:"absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75"}),S.jsx("span",{className:"relative inline-flex h-3 w-3 rounded-full bg-primary"})]}),S.jsx("span",{className:"text-sm font-medium text-primary",children:"Currently Available"})]}),S.jsx("p",{className:"text-sm text-muted-foreground",children:"I'm currently taking on new projects. Typical turnaround is 3–7 days depending on scope."})]})]})]}),S.jsx(RD,{}),S.jsx(ND,{})]})]})})},DD=()=>{const e=qi();return x.useEffect(()=>{console.error("404 Error: User attempted to access non-existent route:",e.pathname)},[e.pathname]),S.jsx("div",{className:"flex min-h-screen items-center justify-center bg-muted",children:S.jsxs("div",{className:"text-center",children:[S.jsx("h1",{className:"mb-4 text-4xl font-bold",children:"404"}),S.jsx("p",{className:"mb-4 text-xl text-muted-foreground",children:"Oops! Page not found"}),S.jsx("a",{href:"/",className:"text-primary underline hover:text-primary/90",children:"Return to Home"})]})})},LD=new qk,OD=()=>{const e=qi();return S.jsx(kw,{mode:"wait",children:S.jsxs(U2,{location:e,children:[S.jsx(ya,{path:"/",element:S.jsx(PD,{})}),S.jsx(ya,{path:"/hire",element:S.jsx(jD,{})}),S.jsx(ya,{path:"*",element:S.jsx(DD,{})})]},e.pathname)})},ID=()=>S.jsx(Jk,{client:LD,children:S.jsxs(kk,{children:[S.jsx(bT,{}),S.jsx(tP,{}),S.jsx(X2,{children:S.jsx(OD,{})})]})});wv(document.getElementById("root")).render(S.jsx(ID,{}));
+// CURSOR
+const cursor = document.querySelector(".cursor");
+
+document.addEventListener("mousemove", e => {
+  cursor.style.top = `${e.clientY}px`;
+  cursor.style.left = `${e.clientX}px`;
+
+  const el = document.elementFromPoint(e.clientX, e.clientY);
+  if (!el) return;
+
+  if (el.closest(".light")) {
+    cursor.classList.add("light");
+    cursor.classList.remove("dark");
+  } else {
+    cursor.classList.add("dark");
+    cursor.classList.remove("light");
+  }
+});
+
+document.querySelectorAll(".magnetic").forEach(el => {
+  el.addEventListener("mousemove", e => {
+    const rect = el.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+
+    el.style.transform = `translate(${x * 0.25}px, ${y * 0.25}px)`;
+  });
+
+  el.addEventListener("mouseleave", () => {
+    el.style.transform = `translate(0,0)`;
+  });
+});
+
+
+// SCROLL DISTORTION FOR HERO
+const heroTitle = document.querySelector(".hero-title");
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  const distortion = Math.min(scrollY / 300, 1);
+
+  heroTitle.style.transform = `
+    scaleY(${1 + distortion * 0.25})
+    scaleX(${1 - distortion * 0.15})
+  `;
+});
